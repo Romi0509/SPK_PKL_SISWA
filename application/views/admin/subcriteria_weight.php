@@ -175,7 +175,7 @@
                                     <?php for ($i = 1; $i < $sum_row + 1; $i++) : ?>
                                         <?php if ($id < $i) : ?>
                                             <td>
-                                                <!-- <select class=" form-control inputweight kolom<?= $i ?>" name="<?= "x" . $i . "y" . $id ?>" id="<?= "x" . $i . "y" . $id ?>" data-id="<?= "x" . $id . "y" . $i ?>">
+                                                <select class=" form-control inputweight kolom<?= $i ?>" name="<?= "x" . $i . "y" . $id ?>" id="<?= "x" . $i . "y" . $id ?>" data-id="<?= "x" . $id . "y" . $i ?>">
                                                     <?php
                                                     $nameform = "x" . $i . "y" . $id;
                                                     $idx = $this->session->userdata("user_logged")["id"];
@@ -196,7 +196,7 @@
                                                     ?>
                                                         <option value="<?= $key->id; ?>" <?= $sl; ?>><?= $key->weight; ?></option>
                                                     <?php endforeach; ?>
-                                                </select> -->
+                                                </select>
                                             </td>
                                         <?php elseif ($id == $i) : ?>
                                             <td><input type="text" class="form-control kolom<?= $i ?>" id="<?= "x" . $i . "y" . $id  ?>" value="1" disabled></td>

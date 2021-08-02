@@ -6,7 +6,7 @@
     <?= $this->session->flashdata('message'); ?>
     <?= $this->session->flashdata('success'); ?>
 
-    <div class="card-body">
+    <!-- <div class="card-body">
         <div class=" py-3">
             <a href="#" data-toggle="modal" data-target="#tambahalternatif" class="btn btn-primary btn-icon-split">
                 <span class="icon text-white-100">
@@ -32,7 +32,6 @@
     <div class="modal fade" id="tambahalternatif" role="dialog">
         <div class="modal-dialog modal-lg">
 
-            <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title">Tambah </h4>
@@ -105,11 +104,11 @@
             </div>
             </form>
         </div>
-    </div>
+    </div> -->
 
     <div class="card shadow mb-4">
         <div class="card-header bg-primary py-3">
-            <h6 class="m-0 font-weight-bold text-white">DATA ALTERNATIF</h6>
+            <h6 class="m-0 font-weight-bold text-white">DATA ALTERNATIF </h6>
         </div>
         <div class="card-body">
             <form action="#" id="form_wcriteria">

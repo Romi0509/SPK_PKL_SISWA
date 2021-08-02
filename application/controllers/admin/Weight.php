@@ -74,7 +74,7 @@ class Weight extends CI_Controller
         $this->db->insert('normalisasi_alternative', $data);
         $this->session->set_flashdata('success', '<div class ="alert alert-success" role="alert">
                 User Berhasil Ditambah </div>');
-        redirect('');
+        redirect('admin/alternative_weight_detail');
     }
 
     public function Alternative()
